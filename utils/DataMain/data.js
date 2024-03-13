@@ -2,7 +2,7 @@ export const data = {
   name: 'María Gómez',
   email: 'mariagomezmateo97@gmail.com',
   aboutMe:
-    '¡Hola a todos! Soy María, encantada. Actualmente me encuentro trabajando en una agencia de Marketing, dentro del departamento web, y a la vez, intentando convertirme en Desarrolladora Full Stack gracias  Rock The Code. Más abajo os cuento sobre mis estudios, mi experiencia laboral y algunos de mis skills. ¡Bienvenidos a mi web! ',
+    '¡Hola a todos! Soy María, encantada. Actualmente me encuentro trabajando en una agencia de Marketing, dentro del departamento web, y a la vez, intentando convertirme en Desarrolladora Full Stack gracias a  Rock The Code. Más abajo os cuento sobre mis estudios, mi experiencia laboral y algunos de mis skills. ¡Bienvenidos a mi web! ',
 
   education: [
     {
@@ -53,18 +53,19 @@ export const data = {
       title: 'BANG.in',
       link: 'https://mariagomez-proyecto1.netlify.app/',
       preview: '/assets/mockup1.jpg',
-      technology: ["HTML", "CSS"]
+      technology: ['HTML', 'CSS']
     },
     {
       title: '¿Qué signo eres?',
       link: 'https://mariagomez-proyecto2.netlify.app/',
       preview: '/assets/mockup2.jpg',
-      technology: ["HTML", "CSS", "JavaScript"]
-    },    {
+      technology: ['HTML', 'CSS', 'JavaScript']
+    },
+    {
       title: 'Mi propio Pinterest',
       link: 'https://mariagomez-proyecto3rtc.netlify.app/',
       preview: '/assets/mockup3.jpg',
-      technology: ["HTML", "CSS", "JavaScript"]
+      technology: ['HTML', 'CSS', 'JavaScript']
     }
   ]
 }
