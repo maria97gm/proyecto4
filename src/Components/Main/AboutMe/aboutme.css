@@ -7,7 +7,6 @@
   padding: var(--rtc-padding-l);
   text-align: center;
   background: url(/public/assets/fondo.jpg);
-  background-repeat: no-repeat;
   background-size: contain;
 }
 
@@ -27,6 +26,9 @@
 /*Responsive aboutMe*/
 
 @media screen and (max-width: 1023px) {
+  .aboutMe {
+    background-repeat: no-repeat;
+  }
   .aboutMe img {
     width: 50%;
   }
