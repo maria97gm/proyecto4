@@ -1,0 +1,18 @@
+/* Estilos para el botón de correo electrónico */
+#email-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999; /* Asegura que esté en la parte superior */
+  background-color: var(--rtc-yellow);
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#email-button:hover {
+  background-color: var(--rtc-blue);
+  color: #fff;
+}

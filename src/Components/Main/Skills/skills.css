@@ -1,0 +1,28 @@
+.skills {
+  padding: 80px var( --rtc-padding-l);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-container {
+  padding: var(--rtc-padding-s);
+  border-radius: var(--rtc-br);
+  text-align: center;
+}
+
+.skill-bar {
+  height: 20px;
+  background-color: var(--rtc-blue);
+  border-radius: var(--rtc-br);
+  color: #fff;
+  font-family: 'Lato';
+}
+
+@media screen and (max-width: 768px) {
+  .skills {
+      grid-template-columns: 1fr; /* Cambiar a una sola columna en pantallas pequeñas */
+  }
+}

@@ -1,0 +1,36 @@
+.aboutMe img {
+  width: 30%;
+  border-radius: var(--rtc-br);
+}
+
+.aboutMe {
+  padding: var(--rtc-padding-l);
+  text-align: center;
+  background: url(/public/assets/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.aboutMe h1,
+.aboutMe h2 {
+  color: var(--rtc-blue);
+  padding-top: var(--rtc-padding-xs);
+}
+
+.aboutMe p {
+  padding-top: var(--rtc-padding-s);
+  max-width: 60%;
+  margin: 0 auto;
+  color: #000;
+}
+
+/*Responsive aboutMe*/
+
+@media screen and (max-width: 1023px) {
+  .aboutMe img {
+    width: 50%;
+  }
+  .aboutMe p {
+    max-width: 100%;
+  }
+}
